@@ -23,7 +23,7 @@ public class AGTestYear {
 
     @Test
     public void testDivisible400And100() {
-        String msg = "should be leap year";
+        String msg = "should not be leap year";
         assertFalse(msg, Year.isLeapYear(1900));
         assertFalse(msg, Year.isLeapYear(2100));
         assertFalse(msg, Year.isLeapYear(2300));
